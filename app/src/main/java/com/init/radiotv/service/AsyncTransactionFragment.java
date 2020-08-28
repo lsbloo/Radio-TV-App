@@ -22,8 +22,7 @@ public class AsyncTransactionFragment extends AsyncTask<String,Integer,Integer> 
     @Override
     protected Integer doInBackground(String... strings) {
         Integer loop=0;
-        for(Integer i = 0 ; i < 8000000 ; i ++){
-
+        for(Integer i = 0 ; i < 10000000 ; i ++){
             loop+=1;
         }
         return loop;

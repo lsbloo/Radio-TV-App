@@ -1,4 +1,4 @@
-package com.init.radiotv.data.model;
+package com.init.radiotv.data.db.model;
 
 import android.os.Parcel;
 import android.os.Parcelable;

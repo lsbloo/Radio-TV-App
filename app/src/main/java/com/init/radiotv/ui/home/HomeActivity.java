@@ -53,6 +53,7 @@ public class HomeActivity extends AppCompatActivity implements HomeView{
             @Override
             public void onClick(View view) {
                 getClick(img_radioTV, Constants.RADIO_TV_BUTTON);
+
             }
         });
 
